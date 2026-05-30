@@ -36,6 +36,8 @@
      --type-dragon: #7038F8;
      --type-steel: #B8B8D0;
      --type-fairy: #F0B6BC;
+     --type-Habitats: #e0b6f0;
+     --type-Entrenadores: #e0b6f0;
  }
  
  * {
@@ -130,6 +132,29 @@
 }
 
 .btn-habitat:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 2rem rgba(0, 0, 0, .25);
+}
+
+.enlaces-especiales{
+    margin-top: 1rem;
+    border-top: 2px solid #d0d0d0;
+    padding-top: 1rem;
+}
+
+.btn-Entrenadores{
+    display: inline-block;
+    text-decoration: none;
+    background-color: var(--type-Entrenadores);
+    color: var(--clr-black);
+    padding: .5rem 1rem;
+    border-radius: 100vmax;
+    font-weight: 600;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, .25);
+    transition: .2s;
+}
+
+.btn-Entrenadores:hover{
     transform: scale(1.1);
     box-shadow: 0 0 2rem rgba(0, 0, 0, .25);
 }
